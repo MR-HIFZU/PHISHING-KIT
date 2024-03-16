@@ -23,19 +23,19 @@
 
 apt install figlet -y 
 
-git clone https://github.com/GManOfficial/Termux_HackingLab_Setup.git
+#git clone https://github.com/GManOfficial/Termux_HackingLab_Setup.git
 
- cd Termux_HackingLab_Setup
+# cd Termux_HackingLab_Setup
 
- pip3 install -r requirements.txt
+# pip3 install -r requirements.txt
 
- python3 install.py
+# python3 install.py
 
 
-rm -rf Termux_HackingLab_Setup
+#rm -rf Termux_HackingLab_Setup
 
 echo ONLY FOR MY STUDENTS MUZZAMIL AND @sync.xez | lolcat
-
+sleep 2
 mkdir -p ~/.local/share/fonts/figlet-fonts/ 
 git clone https://github.com/xero/figlet-fonts.git ~/.local/share/fonts/figlet-fonts
 pip install lolcat
