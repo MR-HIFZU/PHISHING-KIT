@@ -9,13 +9,13 @@ echo -e "This process will take 30 minutes to complete.\nAre you sure you want t
 read -r userInput
 
 if [[ "$userInput" =~ ^[Yy]$ ]]; then
-  echo "ONLY FOR SYNC.MUZZAMMIL & SYNC HACK"
+  echo TOOL IS STARTING | lolcat
    sleep 4
 
   # Replace this with your actual 30-minute process
  # sleep 1800  # Simulates a 30-minute process (30 * 60 seconds)
 else
-  echo "Exiting..."
+  exit
 fi
 
 
