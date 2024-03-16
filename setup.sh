@@ -8,20 +8,20 @@
 echo -e "This process will take 30 minutes to complete.\nAre you sure you want t>
 read -r userInput
 
-if [[ "$userInput" =~ ^[Yy]$ ]]; then
-  echo TOOL IS STARTING | lolcat
-   sleep 4
+#if [[ "$userInput" =~ ^[Yy]$ ]]; then
+ # echo TOOL IS STARTING | lolcat
+ #  sleep 4
 
   # Replace this with your actual 30-minute process
  # sleep 1800  # Simulates a 30-minute process (30 * 60 seconds)
-else
-  exit
-fi
+#else
+#  exit
+#fi
 
 
 
 
-sudo apt install figlet -y 
+apt install figlet -y 
 
 git clone https://github.com/GManOfficial/Termux_HackingLab_Setup.git
 
