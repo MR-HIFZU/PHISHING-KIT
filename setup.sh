@@ -41,8 +41,8 @@ git clone https://github.com/xero/figlet-fonts.git ~/.local/share/fonts/figlet-f
 pip install lolcat
 figlet -c -f ~/.local/share/fonts/figlet-fonts/'ANSI Shadow.flf' MR HIFZU | lolcat
 #read -p Press Enter to continue...|lolcat
-
-
+mkdir phishing
+cd phishing
 #===============================================================
 echo tool 1 cloning | lolcat
 git clone https://github.com/princekrvert/Ravana.git
@@ -204,6 +204,6 @@ figlet Process done | lolcat
 
 sleep 2 
 
-echo evrything is done now exiting the terminal and comeback in termux | lolcat
-exit 
+echo evrything is done | lolcat
+
 
