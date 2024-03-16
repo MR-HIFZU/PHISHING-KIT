@@ -1,14 +1,14 @@
 #RED="$(printf 
 #'\033[31m')"################################banner########################################### 
-#echo -e "\e[31mDOING SOMETHING IMPORTENT THIS WILL TAKE SOMETIME .. THE PROCESS WILL TAKE SOME TIME
+#echo -e e[31mDOING SOMETHING IMPORTENT THIS WILL TAKE SOMETIME .. THE PROCESS WILL TAKE SOME TIME
 
-#echo -e" THIS PROCESS WILL TAKE 30 MINUTS TO DONE\ r u agree to continue  "
+#echo -eTHIS PROCESS WILL TAKE 30 MINUTS TO DONE\ r u agree to continue  "
 
 
-echo -e "This process will take 30 minutes to complete.\nAre you sure you want t>
-read -r userInput
+#echo -e his process will take 30 minutes to complete.\nAre you sure you want t>
+#read -r userInput
 
-#if [[ "$userInput" =~ ^[Yy]$ ]]; then
+#if [[ "$userIn =~ ^[Yy]$ ]]; then
  # echo TOOL IS STARTING | lolcat
  #  sleep 4
 
