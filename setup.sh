@@ -40,7 +40,7 @@ mkdir -p ~/.local/share/fonts/figlet-fonts/
 git clone https://github.com/xero/figlet-fonts.git ~/.local/share/fonts/figlet-fonts
 pip install lolcat
 figlet -c -f ~/.local/share/fonts/figlet-fonts/'ANSI Shadow.flf' MR HIFZU | lolcat
-read -p "Press Enter to continue..."
+#read -p Press Enter to continue...|lolcat
 
 
 #===============================================================
