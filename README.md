@@ -8,15 +8,11 @@ __commands__
 
 
 
-
-`./setup.sh`
-*TO USE HIFZU SPECIAL*
-
-
 ```
-cd hifzu-special
-./1
+./setup.sh
 ```
+
+
 
 __the process is time taking it will take up to 30 minuts__
 
