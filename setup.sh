@@ -22,7 +22,7 @@
 
 
 apt install figlet -y 
-
+pip install lolcat
 #git clone https://github.com/GManOfficial/Termux_HackingLab_Setup.git
 
 # cd Termux_HackingLab_Setup
