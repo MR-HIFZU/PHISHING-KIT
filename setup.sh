@@ -19,8 +19,8 @@
 #fi
 
 
-pkg install python3 python2 
-pkg install python-pip
+pkg install python3 python2 -y
+pkg install python-pip -y
 pkg install figlet -y 
 pip install lolcat
 #git clone https://github.com/GManOfficial/Termux_HackingLab_Setup.git
